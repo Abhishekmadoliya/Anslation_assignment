@@ -62,7 +62,7 @@ export default function ChatContentGenerator() {
   const listRef = useRef(null);
 
   // ✅ Initialize Gemini API
-  const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
+  const genAI = new GoogleGenerativeAI("AIzaSyBLqv_ngEOqpg4ZudZ0WF3c-3vd_EotuR8");
 
   useEffect(() => {
     if (listRef.current) {
